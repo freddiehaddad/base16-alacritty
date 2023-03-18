@@ -17,7 +17,7 @@ git clone https://github.com/freddiehaddad/base16-alacritty.git ~/.config/base16
 Copy the hook to your base16-shell hooks directory:
 
 ```text
-cp ~/.config/base16-alacritty/hooks/base16-alacritty.sh ~/.config/base16-shell/hooks
+cp ~/.config/base16-alacritty/hooks/10-alacritty.sh ~/.config/base16-shell/hooks
 ```
 
 Add the following tags to your `~/.config/alacritty/alacritty.yml` file:
