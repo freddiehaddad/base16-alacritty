@@ -1,15 +1,15 @@
 # Base16 Mountain 256 - alacritty color config
-# gnsfujiwara (https://github.com/gnsfujiwara) based on Mountain Theme (https://github.com/mountain-theme/Mountain)
+# gnsfujiwara (https://github.com/gnsfujiwara)
 colors:
   # Default colors
   primary:
     background: '0x0f0f0f'
-    foreground: '0xf0f0f0'
+    foreground: '0xcacaca'
 
   # Colors the cursor will use if `custom_cursor_colors` is true
   cursor:
     text: '0x0f0f0f'
-    cursor: '0xf0f0f0'
+    cursor: '0xcacaca'
 
   # Normal colors
   normal:
@@ -20,7 +20,7 @@ colors:
     blue:    '0x8f8aac'
     magenta: '0xac8aac'
     cyan:    '0x8aabac'
-    white:   '0xf0f0f0'
+    white:   '0xcacaca'
 
   # Bright colors
   bright:
@@ -31,7 +31,7 @@ colors:
     blue:    '0x8f8aac'
     magenta: '0xac8aac'
     cyan:    '0x8aabac'
-    white:   '0xcacaca'
+    white:   '0xf0f0f0'
 
   indexed_colors:
     - { index: 16, color: '0xceb188' }
