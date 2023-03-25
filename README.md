@@ -82,6 +82,13 @@ draw_bold_text_with_bright_colors: false
 ###BASE16_END###
 ```
 
+## Troubleshooting
+
+MacOS
+
+If the hook script fails on MacOS, you may need to `brew install gnu-sed` and
+make sure it's the default sed tool.
+
 ## Other
 
 [Original repo][github-alacritty-repo-link]
